@@ -1,6 +1,7 @@
 import BestSales from "@/Components/BestSales";
 import Hero from "@/Components/Hero";
 import Navbar from "@/Components/Navbar";
+import OurProducts from "@/Components/OurProducts";
 
 const page = () => {
   return (
@@ -10,6 +11,7 @@ const page = () => {
         <Hero />
       </div>
       <BestSales />
+      <OurProducts />
     </div>
   );
 };

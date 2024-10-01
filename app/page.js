@@ -2,7 +2,7 @@ import Navbar from "@/Components/Navbar";
 
 const page = () => {
   return (
-    <div>
+    <div className="bg-primary">
       <Navbar />
     </div>
   );

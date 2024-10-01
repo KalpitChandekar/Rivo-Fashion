@@ -1,6 +1,7 @@
 import BestSales from "@/Components/BestSales";
 import Hero from "@/Components/Hero";
 import Navbar from "@/Components/Navbar";
+import Offer from "@/Components/Offer";
 import OurProducts from "@/Components/OurProducts";
 
 const page = () => {
@@ -12,6 +13,7 @@ const page = () => {
       </div>
       <BestSales />
       <OurProducts />
+      <Offer />
     </div>
   );
 };

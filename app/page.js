@@ -8,7 +8,7 @@ import OurProducts from "@/Components/OurProducts";
 const page = () => {
   return (
     <div>
-      <div className="bg-primary h-[38rem] pt-6">
+      <div className="bg-primary h-[38rem] pt-6 max-w-7xl mx-auto">
         <Navbar />
         <Hero />
       </div>

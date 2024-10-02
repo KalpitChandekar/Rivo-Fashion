@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="max-w-5xl mx-auto mt-12 flex justify-between">
+    <div className="max-w-5xl mx-auto px-2 md:px-2 mt-12 flex md:flex-row flex-col gap-8 justify-between">
       <div className="max-w-lg mr-auto flex flex-col gap-8 ">
         <h1 className="text-6xl leading-tight">
           Discover and Find Your Own Fashion!
@@ -15,7 +15,7 @@ const Hero = () => {
           EXPLORE NOW
         </button>
       </div>
-      <div className="bg-secondary rounded-bl-3xl rounded-tr-2xl rounded-tl-[6rem] rounded-br-[6rem] relative">
+      <div className="bg-secondary rounded-bl-3xl rounded-tr-2xl rounded-tl-[6rem] rounded-br-[6rem] relative mx-4 md:mx-4">
         <Image
           src="/hero.png"
           width={570}

@@ -37,7 +37,7 @@ const Feedback = () => {
   return (
     <div className="max-w-6xl mx-auto my-40 flex flex-col items-center gap-8">
       <h1 className="text-5xl mb-8">Feedback Corner</h1>
-      <div className="grid grid-cols-3 gap-2">
+      <div className="grid md:grid-cols-3 md:gap-2 gap-8 mx-2 md:mx-2">
         {card.map(({ backgroundColor, title, description }) => (
           <Card
             backgroundColor={backgroundColor}

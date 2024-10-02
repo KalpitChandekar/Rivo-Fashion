@@ -48,12 +48,12 @@ const Card = ({ backgroundColor, imgUrl, title, price, rating }) => {
 
 const BestSales = () => {
   return (
-    <div className="max-w-5xl mx-auto my-20 flex flex-col items-center gap-8">
+    <div className="max-w-5xl mx-auto my-20 flex flex-col items-center px-2 md:px-2 gap-8">
       <h1 className="text-5xl">Best selling</h1>
       <p className="text-primary">
         Get on the trend with our curated selection of best-selling styles.
       </p>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-3 gap-28 md:gap-8">
         {card.map(({ backgroundColor, imgUrl, title, price, rating }) => (
           <Card
             backgroundColor={backgroundColor}

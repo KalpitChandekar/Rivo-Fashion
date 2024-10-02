@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Offer = () => {
   return (
-    <div className="max-w-5xl mb-36 -z-20 bg-primary mx-auto mt-12 flex justify-between items-center">
-      <div className="relative w-1/2 flex justify-center items-center">
+    <div className="max-w-5xl mb-36 -z-20 bg-primary mx-auto mt-12 flex justify-between items-center md:flex-row pt-8 md:pt-0 flex-col-reverse md:gap-0">
+      <div className="relative md:w-1/2 flex justify-center items-center">
         <Image
           src="/offer.png"
           width={482}
@@ -16,12 +16,12 @@ const Offer = () => {
           width={119}
           height={110}
           alt="hero"
-          className="w-[6rem] absolute bottom-8 left-8 z-10"
+          className="w-[6rem] absolute bottom-6 left-2 md:bottom-8 md:left-8 z-10"
         />
-        <div className="bg-[#DFFBEA] w-28 h-28 absolute bottom-12 left-20"></div>
+        <div className="bg-[#DFFBEA] w-28 h-28 absolute bottom-14 left-10 md:bottom-12 md:left-20"></div>
       </div>
 
-      <div className="flex flex-col w-1/2 gap-8 ">
+      <div className="flex flex-col md:w-1/2 gap-8 ">
         <h1 className="text-3xl font-bold">Exclusive offer</h1>
         <p className="max-w-sm leading-loose">
           Unlock the ultimate style upgrade with our exclusive offer Enjoy

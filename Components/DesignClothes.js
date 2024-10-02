@@ -39,15 +39,15 @@ const Card = ({ backgroundColor,imgUrl, title,description }) => {
 
 const DesignCloths = () => {
   return (
-    <div className="max-w-5xl mx-auto my-20 flex flex-col items-center gap-8">
+    <div className="max-w-5xl mx-auto my-20 px-2 md:px-2 flex flex-col items-center gap-8">
       <h1 className="text-5xl">Designer Clothes For You</h1>
       <p className="text-primary">
         {" "}
         Immerse yourself in the world of luxury fashion with our meticulously
         crafted designer clothes!
       </p>
-      <div className="grid grid-cols-3 gap-8">
-        {card.map(({ backgroundColor,imgUrl, title, description }) => (
+      <div className="grid md:grid-cols-3 md:gap-8 gap-28">
+        {card.map(({ backgroundColor, imgUrl, title, description }) => (
           <Card
             backgroundColor={backgroundColor}
             imgUrl={imgUrl}

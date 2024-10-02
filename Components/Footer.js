@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="max-w-5xl mx-auto text-white">
-      <div className="flex justify-between ">
-        <div className="flex flex-col gap-8">
+    <div className="max-w-5xl mx-auto text-white px-2 md:px-2">
+      <div className="flex md:flex-row flex-col justify-between">
+        <div className="flex md:flex-col flex-row md:items-start md:justify-start items-center justify-evenly gap-8 ">
           <a href="/">
             <Image
               src="/footerLogo.png"
@@ -30,41 +30,43 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <ul className="flex flex-col gap-4 font-normal text-[#C2EFD4]">
-          <li className="font-bold text-white text-xl">
-            <a href="/">SHOP</a>
-          </li>
-          <li>
-            <a href="/">Products</a>
-          </li>
-          <li>
-            <a href="/">Overview</a>
-          </li>
-          <li>
-            <a href="/">Pricing</a>
-          </li>
-          <li>
-            <a href="/">Releases</a>
-          </li>
-        </ul>
-        <ul className="flex flex-col gap-4 font-normal text-[#C2EFD4]">
-          <li className="font-bold text-white text-xl">
-            <a href="/">COMPANY</a>
-          </li>
-          <li>
-            <a href="/">About Us</a>
-          </li>
-          <li>
-            <a href="/">Contact</a>
-          </li>
-          <li>
-            <a href="/">News</a>
-          </li>
-          <li>
-            <a href="/">Support</a>
-          </li>
-        </ul>
-        <div className="flex flex-col gap-4 ">
+        <div className="flex gap-40 md:my-0 justify-evenly my-20">
+          <ul className="flex flex-col gap-4 font-normal text-[#C2EFD4]">
+            <li className="font-bold text-white text-xl">
+              <a href="/">SHOP</a>
+            </li>
+            <li>
+              <a href="/">Products</a>
+            </li>
+            <li>
+              <a href="/">Overview</a>
+            </li>
+            <li>
+              <a href="/">Pricing</a>
+            </li>
+            <li>
+              <a href="/">Releases</a>
+            </li>
+          </ul>
+          <ul className="flex flex-col gap-4 font-normal text-[#C2EFD4]">
+            <li className="font-bold text-white text-xl">
+              <a href="/">COMPANY</a>
+            </li>
+            <li>
+              <a href="/">About Us</a>
+            </li>
+            <li>
+              <a href="/">Contact</a>
+            </li>
+            <li>
+              <a href="/">News</a>
+            </li>
+            <li>
+              <a href="/">Support</a>
+            </li>
+          </ul>
+        </div>
+        <div className="flex flex-col items-center md:items-start gap-4 ">
           <h1 className="font-bold text-xl">STAY UP TO DATE</h1>
           <div className="flex items-center justify-center">
             <input

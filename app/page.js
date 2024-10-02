@@ -1,6 +1,7 @@
 import BestSales from "@/Components/BestSales";
 import DesignCloths from "@/Components/DesignClothes";
 import Feedback from "@/Components/FeedbackCorner";
+import Footer from "@/Components/Footer";
 import Hero from "@/Components/Hero";
 import Navbar from "@/Components/Navbar";
 import Offer from "@/Components/Offer";
@@ -18,6 +19,9 @@ const page = () => {
       <Offer />
       <DesignCloths />
       <Feedback />
+      <div className="bg-[#224F34] py-14 max-w-7xl mx-auto">
+        <Footer />
+      </div>
     </div>
   );
 };
